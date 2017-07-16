@@ -1,0 +1,22 @@
+1. Enetr valid user aname and password 
+Test case 1: login uisng a valid user name and passsord 
+expected : BSA wil tell you what is expected. - Login and move to next page.
+Actutaul :  Login and move to next page.
+Result :Pass 
+
+
+
+Test case 2: Login with valid ID and invalid password
+Expected: Show a error message "Invalid credentails"
+Actutal : Got a error messages as expected.
+Result :Pass.
+
+Sign offf , application is woriking..
+
+Test case 2: Login with invalid ID and correct password
+Expected: Show a error message "Invalid credentails"
+Actutal : Got a error messages as expected.
+Result :Pass.
+
+
+
