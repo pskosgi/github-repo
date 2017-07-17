@@ -1,0 +1,105 @@
+
+<!--CSS style sheet  -->
+
+.pg-normal {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pg-selected {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+body {
+font-weight:150;
+font-size: 12px;
+font-family: Verdana;
+}
+
+table.myResultTable {
+	border-collapse: collapse;
+    border: 1px solid #615C54;
+    border-spacing: 0px;
+}
+
+table.myResultTable td {
+    word-wrap:break-word;
+}
+
+table.myResultTable th {
+	height: 20px;
+    border: 2px solid #615C54;
+    background :#4682B4;
+    color: black;
+    font-weight: bold;
+}
+
+table.myResultTable tr:nth-child(even) {
+    background: #fff;
+}
+
+table.myResultTable tr:hover{background-color:#b8c4d3;}
+
+input[type='submit'] {
+	width: 150px;
+	height: 25px;
+	border: 2px solid black;
+	background-color:#CCC;
+	font-weight: bold;
+	border-radius: 10px;
+}
+input[type='submit']:hover {
+	width: 150px;
+	height: 25px;
+	border: 2px solid black;
+	background-color:blue;
+	color:#fff;
+	font-weight: bold;
+}
+
+input[type='datetime-local'] {
+	width: 200px;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	font-weight: 150;
+	font-size: 12px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+select, input {
+	width: 150px;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	font-weight: 150;
+	font-size: 12px;
+	font-family: Verdana;
+	box-shadow: 1px 1px 5px #CCC;
+}
+
+table.mainsearchbox td {
+	 background: #F0FFFF;
+	 border-radius: 10px;
+	 padding: 0px;
+}
+
+a.ng-binding {
+     color: RED; 
+}
+
+a.ng-binding:active {
+    color: blue;
+}
+
+a.ng-binding[tabindex]:focus {
+    color: blue;
+    outline: none;
+    background: #FFFF00;
+}
